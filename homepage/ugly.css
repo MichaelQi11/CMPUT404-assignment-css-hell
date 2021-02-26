@@ -1,0 +1,73 @@
+/* Reference: 
+The structure of CSS is cited from RUNOOB (no specific author), https://www.runoob.com/
+From runoob.com
+https://www.runoob.com/w3cnote/htmlcss-make-a-website.html
+
+The background image is from https://manofmany.com/living/amazon-finds-february-2021-upgrade-your-office
+
+# Copyright 2021 Hongru Qi, https://www.runoob.com/w3cnote/htmlcss-make-a-website.html, https://manofmany.com/living/amazon-finds-february-2021-upgrade-your-office
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Do not use urllib's HTTP GET and POST mechanisms.
+# Write your own HTTP GET and POST
+# The point is to understand what you have to send and get experience with it
+*/
+
+body {
+    font-family: 'Brushstroke', fantasy;
+    background-image: url("images/fun_back.jpg");
+}
+h1 {font-size: 300%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.2em;
+    text-indent: 0em;}
+h2 {font-size: 150%; margin-top: 1em; margin-bottom: 1em;}
+h3 {font-size: 130%; margin-top: 0.1em; margin-bottom: 0.1em;}
+h4 {font-size: 120%;}
+h5 {font-size: 110%;}
+p {font-size: 110%;}
+.header {
+    padding: 80px;
+    text-align: center;
+    background-image: url("images/fun_back.jpg");
+    color: white;
+}
+.topbar {
+    overflow: hidden;
+    background-color: crimson;
+}
+.topbar a {
+    font-size: 100%;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+}
+.main {   
+    color: blueviolet;
+    -ms-flex: 80%; /* IE10 */
+    flex: 80%;
+    padding: 20px;
+}
+.sidebar {
+    color: brown;
+    -ms-flex: 20%; /* IE10 */
+    flex: 20%;
+    padding: 20px;
+}
+img {
+    display: inline-block;
+}
