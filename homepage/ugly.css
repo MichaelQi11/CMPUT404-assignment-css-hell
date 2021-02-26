@@ -24,46 +24,53 @@ The background image is from https://manofmany.com/living/amazon-finds-february-
 */
 
 body {
-    font-family: 'Brushstroke', fantasy;
+    font-family: 'Bradley Hand', cursive;
     background-image: url("images/fun_back.jpg");
 }
-h1 {font-size: 300%;
+h1 {font-size: 500%;
     margin-top: 0.6em;
     margin-bottom: 0.6em;
     letter-spacing: 0.12em;
     word-spacing: 0.2em;
     text-indent: 0em;}
-h2 {font-size: 150%; margin-top: 1em; margin-bottom: 1em;}
-h3 {font-size: 130%; margin-top: 0.1em; margin-bottom: 0.1em;}
-h4 {font-size: 120%;}
-h5 {font-size: 110%;}
-p {font-size: 110%;}
+h2 {font-size: 200%; margin-top: 1em; margin-bottom: 1em;}
+h3 {font-size: 200%; margin-top: 0.1em; margin-bottom: 0.1em;}
+h4 {font-size: 200%;}
+h5 {font-size: 200%;}
+p {font-size: 200%;}
 .header {
     padding: 80px;
     text-align: center;
     background-image: url("images/fun_back.jpg");
-    color: white;
+    color: rgb(0, 247, 255);
+}
+.header p{
+    font-size: 300%;
+    color: orange;
 }
 .topbar {
     overflow: hidden;
     background-color: crimson;
 }
 .topbar a {
-    font-size: 100%;
+    font-size: 200%;
     float: left;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 20px;
 }
+.topbar a.right {
+    float: right;
+}
 .main {   
-    color: blueviolet;
+    color: pink;
     -ms-flex: 80%; /* IE10 */
     flex: 80%;
     padding: 20px;
 }
 .sidebar {
-    color: brown;
+    color: red;
     -ms-flex: 20%; /* IE10 */
     flex: 20%;
     padding: 20px;
@@ -74,4 +81,6 @@ img {
 .footer {
     padding: 5px;
     text-align: center;
+    font-size: 200%;
+    color: yellow;
 }
