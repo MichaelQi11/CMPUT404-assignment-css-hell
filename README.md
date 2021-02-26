@@ -22,6 +22,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 Reference:
+=================
 Gutenberg Style css is from Project Gutenberg, http://www.gutenberg.org/,
 From Project Gutenberg
 http://www.gutenberg.org/files/84/84-h/84-h.htm, http://www.gutenberg.org/files/1342/1342-h/1342-h.htm, http://www.gutenberg.org/files/1080/1080-h/1080-h.htm
@@ -31,6 +32,7 @@ From runoob.com
 https://www.runoob.com/w3cnote/htmlcss-make-a-website.html
 
 Gutenberg:
+=================
 For the three gutenberg html files, I removed the style section in header and
 merged them in a single style.css for further modification. I have also added
 a link to the css stylesheet in the header
