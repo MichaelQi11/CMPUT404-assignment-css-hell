@@ -57,6 +57,9 @@ h5 {font-size: 110%;}
     text-align: center;
     padding: 14px 20px;
 }
+.topbar a.right {
+    float: right;
+}
 .content {  
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -72,9 +75,15 @@ h5 {font-size: 110%;}
 .sidebar {
     -ms-flex: 20%; /* IE10 */
     flex: 20%;
+    text-align: center;
     background-color: #f1f1f1;
     padding: 20px;
 }
 img {
     display: inline-block;
+}
+.footer {
+    padding: 5px;
+    text-align: center;
+    background: rgb(165, 88, 0);
 }
