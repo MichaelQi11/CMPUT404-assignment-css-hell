@@ -64,19 +64,19 @@ h5 {font-size: 110%;}
     float: right;
 }
 .content {  
-    display: -ms-flexbox; /* IE10 */
+    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .main {   
-    -ms-flex: 80%; /* IE10 */
+    -ms-flex: 80%;
     flex: 80%;
     background-color: white;
     padding: 20px;
 }
 .sidebar {
-    -ms-flex: 20%; /* IE10 */
+    -ms-flex: 20%;
     flex: 20%;
     text-align: center;
     background-color: #f1f1f1;

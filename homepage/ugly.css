@@ -65,15 +65,11 @@ p {font-size: 200%;}
 }
 .main {   
     color: pink;
-    -ms-flex: 80%; /* IE10 */
-    flex: 80%;
-    padding: 20px;
+    text-align: center;
 }
 .sidebar {
     color: red;
-    -ms-flex: 20%; /* IE10 */
-    flex: 20%;
-    padding: 20px;
+    text-align: center;
 }
 img {
     display: inline-block;
