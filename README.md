@@ -31,6 +31,11 @@ The structure of homepage HTML and CSS are cited from RUNOOB (no specific author
 From runoob.com
 https://www.runoob.com/w3cnote/htmlcss-make-a-website.html
 
+The background image of ugly homepage is from Jacob Osborn, https://manofmany.com/author/jacobosborn,
+From Manofmany
+https://manofmany.com/living/amazon-finds-february-2021-upgrade-your-office
+
+
 Gutenberg:
 =================
 For the three gutenberg html files, I removed the style section in header and
