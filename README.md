@@ -22,7 +22,9 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 Reference:
-Style for the three gutenberg pages are from Project Gutenberg, http://www.gutenberg.org/browse/scores/top
+Gutenberg Style css is from Project Gutenberg, http://www.gutenberg.org/,
+From Project Gutenberg
+http://www.gutenberg.org/files/84/84-h/84-h.htm, http://www.gutenberg.org/files/1342/1342-h/1342-h.htm, http://www.gutenberg.org/files/1080/1080-h/1080-h.htm
 
 The structure of homepage HTML and CSS are cited from RUNOOB (no specific author), https://www.runoob.com/
 From runoob.com
